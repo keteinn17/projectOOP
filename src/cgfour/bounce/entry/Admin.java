@@ -109,6 +109,7 @@ public class Admin extends JPanel implements ActionListener {
 
         table = new JTable(row, col);
         table.setEnabled(false);
+        table.setRowHeight(20);
        // table.setBackground(Color.RED);
        // table.setForeground(Color.WHITE);
         table.setFont(new Font("Consolas", Font.BOLD, 16));
